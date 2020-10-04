@@ -1,4 +1,4 @@
-package com.ds.lc.arrays;
+package com.kepler51.ds.array.leetcode;
 
 public class Array1295 {
     //PD : 1295. Find Numbers with Even Number of Digits

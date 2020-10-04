@@ -1,4 +1,4 @@
-package com.ds.sorting;
+package com.kepler51.ds.sorting;
 
 public class Bubble {
 

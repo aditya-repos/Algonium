@@ -1,4 +1,4 @@
-package com.ds.trees;
+package com.kepler51.ds.trees;
 
 public class TNode {
     private int element;

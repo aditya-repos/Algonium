@@ -1,22 +1,28 @@
-package com.ds.trees.bt;
+package com.kepler51.ds.trees.bt;
 
-import com.ds.trees.TNode;
+import com.kepler51.ds.trees.TNode;
 
 import java.util.Stack;
 
 public class InOrderTraversal {
 
-    private void traverse(TNode root){
-        if(root == null)
+    private void traverse(TNode root) {
+        if (root == null)
             return;
         Stack<TNode> nodes = new Stack<>();
         nodes.add(root);
-        while(!nodes.isEmpty()){
-            if(root.getLeft() != null) {
-                nodes.add(root.getLeft());
-                root = root.getLeft();
-                continue;
+
+        while (true) {
+            while (!nodes.isEmpty()) {
+                if (root != null) {
+                    nodes.add(root.getLeft());
+                    root = root.getLeft();
+                }
             }
+
+            root = nodes.pop();
+            System.out.println(root.getElement());
+
 
             /**
              * How to proceed further.
@@ -25,9 +31,10 @@ public class InOrderTraversal {
              */
             System.out.println(root.getElement());
             nodes.pop();
-            if(root.getRight() != null){
+            if (root.getRight() != null) {
                 nodes.add(root.getRight());
                 root = root.getRight();
+
             }
         }
     }

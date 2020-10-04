@@ -1,4 +1,4 @@
-package com.ds.lc.arrays;
+package com.kepler51.ds.array.leetcode;
 
 public class Array1409 {
 
