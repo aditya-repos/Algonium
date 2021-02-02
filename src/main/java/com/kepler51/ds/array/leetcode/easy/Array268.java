@@ -1,4 +1,4 @@
-package com.kepler51.ds.array.leetcode;
+package com.kepler51.ds.array.leetcode.easy;
 
 public class Array268 {
     public static int missingNumber(int[] nums) {

@@ -1,4 +1,4 @@
-package com.kepler51.ds.array.leetcode;
+package com.kepler51.ds.array.leetcode.easy;
 
 public class RunningSum1480 {
 

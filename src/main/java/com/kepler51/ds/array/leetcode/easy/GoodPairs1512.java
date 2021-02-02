@@ -1,5 +1,6 @@
-package com.kepler51.ds.array.leetcode;
+package com.kepler51.ds.array.leetcode.easy;
 
+import java.nio.charset.Charset;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,6 +31,10 @@ public class GoodPairs1512 {
 
 
     public static void main(String[] args) {
+        String name = "Ƣ";//ǴỳAditya Gaurav";
+        byte[] bits = name.getBytes();
+        System.out.println(bits.length);
+        System.out.println(Charset.defaultCharset().name());
         int[] nums = {1,2,3};
         int res = numIdenticalPairs(nums);
         System.out.println(res);
