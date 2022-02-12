@@ -6,6 +6,7 @@ public class PowerOfTwo {
         //Base condition
         if(num == 2)
             return true;
+
         if(num % 2 != 0)
             return false;
         //Input reduction

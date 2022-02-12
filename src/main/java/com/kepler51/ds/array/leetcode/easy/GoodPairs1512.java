@@ -20,7 +20,7 @@ public class GoodPairs1512 {
 
     //Bet Runtime
     public int numIdenticalPairs2(int[] nums) {
-        Map<Integer, Integer> map = new HashMap();
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         int count = 0;
         for (int num : nums) {
             count += map.getOrDefault(num, 0);
